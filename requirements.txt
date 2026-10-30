@@ -1,0 +1,36 @@
+﻿# Requisitos do projeto Vinheria IoT
+
+[dashboard]
+Node.js: 20 LTS recomendado (Next.js 15 requer Node.js 18.18.0 ou superior)
+npm: incluído na instalação do Node.js
+Instalação das dependências: npm ci
+Executar em desenvolvimento: npm run dev
+Build de produção: npm run build
+Executar em produção: npm run start
+
+[firmware_esp32]
+Arduino IDE com suporte à placa ESP32
+Placa: ESP32 DevKit V1
+Bibliotecas externas:
+- DHT sensor library
+- Adafruit Unified Sensor
+- LiquidCrystal_I2C
+- PubSubClient
+Bibliotecas incluídas no core Arduino/ESP32 usadas pelo sketch:
+- Arduino.h
+- WiFi.h
+- Wire.h
+- EEPROM.h
+
+[fiware]
+Docker Engine
+Docker Compose (comando docker-compose, conforme README da stack FIWARE)
+Stack de referência: https://github.com/fabiocabrini/fiware
+Serviços necessários: Orion Context Broker, IoT Agent MQTT, STH-Comet,
+Eclipse Mosquitto e MongoDB
+Portas usadas: 1026/TCP, 1883/TCP, 4041/TCP e 8666/TCP
+
+[observacao]
+Para o dashboard, package.json e package-lock.json são a fonte oficial das
+versões das dependências JavaScript. Use npm ci para instalar versões
+reprodutíveis.
