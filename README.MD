@@ -209,6 +209,15 @@ Ao mudar o identificador `DEVICE`, os tópicos são montados novamente como `lam
 - MQTT para comunicação com dispositivos
 - Telegram Bot API para alertas
 
+### Demonstração
+
+<img src="./public/images/iot_principal.png" alt="Página principal do sistema" width="400">
+<img src="./public/images/iot_graficos.png" alt="Gráficos gerados no sistema" width="400">
+<img src="./public/images/iot_telegram.png" alt="Integração com telegram" width="400">
+<img src="./public/images/iot_esp32.png" alt="simulador esp32" width="400">
+<br/>
+
+
 ## Integrantes
 
 | Integrante | RM |
@@ -217,3 +226,5 @@ Ao mudar o identificador `DEVICE`, os tópicos são montados novamente como `lam
 | Leonardo Daniel | 574142 |
 | Matheus Tamataya | 572842 |
 | Vinycius Lu | 569300 |
+
+> Projeto acadêmico desenvolvido para aplicação prática de conceitos de IoT, integração de sistemas, desenvolvimento web e computação em nuvem.
