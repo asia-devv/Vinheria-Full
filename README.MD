@@ -211,10 +211,10 @@ Ao mudar o identificador `DEVICE`, os tópicos são montados novamente como `lam
 
 ### Demonstração
 
-<img src="./public/images/iot_principal.png" alt="Página principal do sistema" width="400">
-<img src="./public/images/iot_graficos.png" alt="Gráficos gerados no sistema" width="400">
-<img src="./public/images/iot_telegram.png" alt="Integração com telegram" width="400">
-<img src="./public/images/iot_esp32.png" alt="simulador esp32" width="400">
+<img src="./public/images/iot_principal.png" alt="Página principal do sistema">
+<img src="./public/images/iot_graficos.png" alt="Gráficos gerados no sistema">
+<img src="./public/images/iot_telegram.png" alt="Integração com telegram">
+<img src="./public/images/iot_esp32.png" alt="simulador esp32">
 <br/>
 
 
