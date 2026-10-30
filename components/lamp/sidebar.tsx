@@ -22,14 +22,14 @@ export function Sidebar({ view, onViewChange }: { view: View; onViewChange: (v: 
           <Lightbulb className="relative size-5 text-lamp" aria-hidden="true" />
         </div>
         <div>
-          <p className="text-lg font-bold leading-tight text-white">Smart Lamp</p>
+          <p className="text-lg font-bold leading-tight text-white">Vinheria Full</p>
           <p className="text-xs text-white/55">ESP32 · MQTT · FIWARE</p>
         </div>
       </div>
 
       <nav aria-label="Navegação principal">
         <p className="mb-2 px-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-white/45">Painel</p>
-        <ul className="flex gap-2 overflow-x-auto lg:flex-col">
+        <ul className="flex gap-2 overflow-x-auto lg:flex-col lg:overflow-visible">
           {NAV_ITEMS.map((item) => {
             const active = item.id === view
             return (

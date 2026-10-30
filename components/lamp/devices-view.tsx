@@ -75,7 +75,7 @@ export function DevicesView() {
     <div className="grid gap-6 xl:grid-cols-[26rem_1fr]">
       <div className="space-y-6">
         <GlassCard className="p-6">
-          <h2 className="text-lg font-semibold text-white">Cadastrar lâmpada</h2>
+          <h2 className="text-lg font-semibold text-white">Cadastrar dispositivo</h2>
           <p className="mt-1 text-sm text-white/55">Provisiona no IoT Agent e registra os comandos on/off no Orion.</p>
 
           <form onSubmit={submit} className="mt-5 space-y-4" noValidate>

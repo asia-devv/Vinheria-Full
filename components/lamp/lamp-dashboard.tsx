@@ -22,7 +22,7 @@ export function LampDashboard() {
 const SUBTITLES: Record<View, string> = {
   overview: "Estado, luminosidade e sensores de cada lâmpada em tempo real",
   luminosity: "Histórico de luminosidade, temperatura e umidade via STH-Comet",
-  devices: "Provisione ou remova lâmpadas no IoT Agent e no Orion",
+  devices: "Provisione ou remova dispositivos no IoT Agent e no Orion",
 }
 
 function Shell() {

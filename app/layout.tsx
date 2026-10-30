@@ -11,7 +11,7 @@ const figtree = Figtree({
 })
 
 export const metadata: Metadata = {
-  title: "Smart Lamp · Monitoramento em tempo real",
+  title: "Vinheria Full · Monitoramento em tempo real",
   description: "Controle e monitoramento de lâmpadas inteligentes e sensores de luminosidade com ESP32, MQTT e FIWARE.",
   generator: "v0.app",
 }

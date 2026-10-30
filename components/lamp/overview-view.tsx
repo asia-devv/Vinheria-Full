@@ -29,11 +29,11 @@ export function OverviewView({
 
   const stats = [
     { label: "Dispositivos", value: String(lamps.length), hint: "registrados no FIWARE", icon: Lightbulb, tone: "text-lamp" },
-    { label: "Ligadas agora", value: `${onCount}/${lamps.length}`, hint: "estado reportado", icon: Power, tone: "text-lamp-on" },
+    { label: "Ligados agora", value: `${onCount}/${lamps.length}`, hint: "estado reportado", icon: Power, tone: "text-lamp-on" },
     {
       label: "Luminosidade média",
       value: formatNumber(average(lamps.map((l) => l.luminosity))),
-      hint: "lx · todas as lâmpadas",
+      hint: "% · todos os dispositivos",
       icon: Sun,
       tone: "text-lamp",
     },
@@ -68,7 +68,7 @@ export function OverviewView({
       <div className="grid gap-6 2xl:grid-cols-[1fr_20rem]">
         <section aria-labelledby="lamps-heading" className="space-y-4">
           <h2 id="lamps-heading" className="sr-only">
-            Lâmpadas
+            Dispositivos
           </h2>
           <DataGate onAddDevice={onAddDevice}>
             <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-2 min-[1800px]:grid-cols-3">
@@ -84,7 +84,7 @@ export function OverviewView({
           <p className="text-xs text-white/50">Comandos e alterações feitas neste painel</p>
           {activity.length === 0 ? (
             <p className="mt-6 rounded-2xl border border-dashed border-white/15 p-4 text-center text-sm text-white/50">
-              Nenhuma ação ainda. Ligue uma lâmpada para começar.
+              Nenhuma ação ainda. Ligue um dispositivo para começar.
             </p>
           ) : (
             <ol className="mt-4 space-y-2" aria-live="polite">

@@ -93,7 +93,7 @@ export function LampCard({ lamp, delay, onOpenChart }: { lamp: Lamp; delay?: num
           <p className="text-xs text-white/55">Luminosidade</p>
           <p className="text-3xl font-bold tabular-nums text-white transition-all duration-500">
             {formatNumber(lamp.luminosity)}
-            <span className="ml-1 text-sm font-medium text-white/50">lx</span>
+            <span className="ml-1 text-sm font-medium text-white/50">%</span>
           </p>
           <div
             className="mt-2 h-1.5 overflow-hidden rounded-full bg-white/10"
